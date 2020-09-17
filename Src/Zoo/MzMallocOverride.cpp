@@ -1,5 +1,6 @@
 #include "MallocZoo.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 namespace MallocZoo {
 

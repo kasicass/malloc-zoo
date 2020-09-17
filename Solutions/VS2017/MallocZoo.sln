@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MallocZoo", "Zoo\MallocZoo.vcxproj", "{E2AF866F-50A9-41EA-A80C-C4010D9381A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{F7C4D20D-7C72-470F-BCE0-8B4A2E8D31FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{1490D55B-F049-4EE2-8D97-23974B429E3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-Simple", "Apps\01-Simple.vcxproj", "{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,9 +33,25 @@ Global
 		{E2AF866F-50A9-41EA-A80C-C4010D9381A2}.Release|x64.Build.0 = Release|x64
 		{E2AF866F-50A9-41EA-A80C-C4010D9381A2}.Release|x86.ActiveCfg = Release|Win32
 		{E2AF866F-50A9-41EA-A80C-C4010D9381A2}.Release|x86.Build.0 = Release|Win32
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Debug|x64.ActiveCfg = Debug|x64
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Debug|x64.Build.0 = Debug|x64
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Debug|x86.Build.0 = Debug|Win32
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Profile|x64.ActiveCfg = Profile|x64
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Profile|x64.Build.0 = Profile|x64
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Profile|x86.ActiveCfg = Profile|Win32
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Profile|x86.Build.0 = Profile|Win32
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Release|x64.ActiveCfg = Release|x64
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Release|x64.Build.0 = Release|x64
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Release|x86.ActiveCfg = Release|Win32
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2AF866F-50A9-41EA-A80C-C4010D9381A2} = {F7C4D20D-7C72-470F-BCE0-8B4A2E8D31FB}
+		{9A01AC63-E4CC-40D7-8DD1-8B7A722EC9BA} = {1490D55B-F049-4EE2-8D97-23974B429E3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C86EBFD-FBEE-4832-A26B-F5EE18493CCA}
